@@ -1,0 +1,24 @@
+/**************** general style ******************/
+:root{
+    /* font size */
+    font-size: 62.5%;
+    /* website colors */
+    --primary-color: #FFA300;
+    --secondary-color: #FFF;
+}
+*,
+*::after,
+*::before{
+padding: 0;
+margin: 0;
+}
+img{
+width: 100% ;
+height: 100%;
+}
+span{
+display: block;
+}
+/**************** general style ******************/
+
+/* overall menu styling */
