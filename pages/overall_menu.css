@@ -1,4 +1,23 @@
+/* reset */
+
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100% ;
+height: 100%;
+}
+span{
+    display: block;
+}
+
+
 /**************** general style ******************/
+
 :root{
     /* font size */
     font-size: 62.5%;
@@ -6,19 +25,43 @@
     --primary-color: #FFA300;
     --secondary-color: #FFF;
 }
-*,
-*::after,
-*::before{
-padding: 0;
-margin: 0;
+body {
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
-img{
-width: 100% ;
-height: 100%;
-}
-span{
-display: block;
-}
-/**************** general style ******************/
+/**************** general style end ******************/
 
-/* overall menu styling */
+
+/************** overall menu *************/
+.menu{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../assets/background/page 1 and 2.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.menu__items{
+    display: grid;
+    grid-template-columns: repeat(2,15.5rem);
+    grid-template-rows: repeat(5,15rem);
+    place-self: center;
+    width: fit-content;
+    margin: 17% auto;
+}
+.menu__items--item{
+    width: 15.5rem;
+    height: 15rem;
+}
+.menu__items--item__img{
+    width: 15.5rem;
+    height: 15rem;
+}
+/************** overall menu end *************/
