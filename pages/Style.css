@@ -1,0 +1,53 @@
+
+/**************** general style ******************/
+:root{
+        /* font size */
+        font-size: 62.5%;
+        /* website colors */
+        --primary-color: #FFA300;
+        --secondary-color: #FFF;
+}
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100% ;
+    height: 100%;
+}
+span{
+    display: block;
+}
+/**************** general style ******************/
+
+.head{
+    max-width: 43rem;
+    height: 93.2rem;
+    background-image: url("../assets/بکگراند/page 1 and 2.png");
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.head__logo{
+    width: 34rem;
+    height: 41rem;
+}
+.head__para{
+    color: #FFF;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 96px;
+    /* margin: auto 0; */
+    text-align: center;
+}
+.head__btn{
+    width: 12rem;
+    height: 4.6rem;
+    /* margin: auto 0; */
+}
