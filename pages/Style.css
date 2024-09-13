@@ -12,6 +12,12 @@ img {
   height: 80%;
 }
 
+/**************** fonts ******************/
+@font-face{
+  font-family: 'irannastaliq';
+  src: url('../assets/fonts/IranNastaliq/IranNastaliq.ttf');
+}
+
 /**************** general style ******************/
 :root {
   /* font size */
@@ -29,7 +35,9 @@ body {
   background-color: #2D2C2A;
 }
 
-/**************** general style ******************/
+/**************** general style end ******************/
+
+/**************** head style ******************/
 
 .head {
   display: flex;
@@ -44,6 +52,7 @@ body {
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
+  font-family: irannastaliq;
 }
 .logo {
   display: flex;
@@ -57,9 +66,9 @@ body {
   width: 42rem;
 }
 .para {
-    display: flex;
-    flex-direction: column;
-    margin-top: -6rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: -8rem;
   width: 32rem !important;
 }
 .head__para {
@@ -69,11 +78,10 @@ body {
   text-align: center;
   margin: 0 1rem;
 }
-.span{
-    padding-top: 2rem;
-}
 .head__btn {
   width: 12rem;
   height: 4.6rem;
   margin: auto 0;
 }
+
+/**************** head style end ******************/
