@@ -195,12 +195,15 @@ body {
 .ch4__img,
 .ch5__img{
     display: flex;
+    justify-content: center;
+    align-items: center;
     border: 0.5px solid var(--primary-color);
     margin: 0.5rem;
     width: 75%;
     height: 85%;
     padding: 3% 6%;
     place-items: center;
+
 }
 .ch4__img img{
     max-width: 4.4rem;

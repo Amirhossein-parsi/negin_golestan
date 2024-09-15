@@ -80,6 +80,7 @@ body {
 }
 .warm-drinks__menu--item__details--name{
     color: rgba(255, 255, 255, 1);
+    text-align:end;
 }
 .warm-drinks__menu--item__details--ingredients{
     color: rgba(147, 146, 146, 1);
