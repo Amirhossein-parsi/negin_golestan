@@ -84,3 +84,10 @@ body {
     padding: auto;
     font-size: 3.5rem;
 }
+
+/**************** responsive *****************/
+@media screen and (max-width: 380px) {
+    .menu{
+        padding: 4rem;
+    }
+}

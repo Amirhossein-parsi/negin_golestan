@@ -96,17 +96,3 @@ body {
 
 
 /**************** responsive *****************/
-@media screen and (max-width: 380px) {
-.head{
-  padding: 5rem;
-}
-.head__logo{
-  width: 100%;
-  height: 100%;
-  margin-bottom: 14vh;
-}
-.head__btn{
-  margin-top: 14vh;
-}
-}
-/**************** responsive end *****************/
