@@ -63,6 +63,13 @@ body {
     align-items: baseline;
     width: 75%;
     height: fit-content;
+    background-image: url(../assets/img/image_elements/title.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.international__menu--title__head{
+    color: var(--primary-color);
 }
 .international__menu--item{
     width: 75%;

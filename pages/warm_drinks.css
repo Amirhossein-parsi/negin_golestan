@@ -66,6 +66,13 @@ body {
     align-items: baseline;
     width: 75%;
     height: fit-content;
+    background-image: url(../assets/img/image_elements/title.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.warm-drinks__menu--title__head{
+    color: var(--primary-color);
 }
 .warm-drinks__menu--item{
     width: 75%;
